@@ -35,7 +35,7 @@
     - ```data\desktop8.ndk```
     - ```data\cache.ndk```
     - ```data\bookmark.nsf```
-    - ```data\mailbox```
+    - ```data\mail.box```
     - ```data\log.nsf```
     - ```data\busytime.nsf```
     - ```data\IBM_TECHNICAL_SUPPORT\```
