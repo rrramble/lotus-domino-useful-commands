@@ -45,5 +45,5 @@
 # Limits
 - Database is limited to 64 Gigabytes (68719476736 bytes)
 - Organization name 3-64 symbols
-- Server name 79 symbols
-- Notes network 31 symbols
+- Server name up to 79 symbols
+- Notes network up to 31 symbols
