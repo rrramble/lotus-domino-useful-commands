@@ -28,9 +28,9 @@
     - ```servertask=``` — run task after every reboot
     - ```servertaskat1=``` — run task in 01:00 hour daily
 
-## Reinstalling hints:
-- save ```notes.ini```
-- delete files:
+## Quick reinstallation hints (without uninistall/install distributive):
+- save file ```notes.ini```
+- delete files and folders:
     - ```data\names.nsf```
     - ```data\desktop8.ndk```
     - ```data\cache.ndk```
@@ -38,9 +38,9 @@
     - ```data\mailbox```
     - ```data\log.nsf```
     - ```data\busytime.nsf```
-    - ```data\ibm_technical_support```
+    - ```data\IBM_TECHNICAL_SUPPORT\```
     - ```data\user.id```
-    - ```DAOS\```
+    - ```data\DAOS\```
 
 # Limits
 - Database is limited to 64 Gigabytes (68719476736 bytes)
