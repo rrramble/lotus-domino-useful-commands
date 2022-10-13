@@ -1,5 +1,8 @@
 # Useful commands for administering of IBM(R) Lotus Domino server
 
+## Disclaimer
+The text was taken from own handwritten self-taught notes and translated to English. Therefore, there might be unintended errors and usage of non-official terms.
+
 ## User sessions
 
 ### Block user sessions, light mode
