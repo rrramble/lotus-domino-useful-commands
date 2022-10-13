@@ -42,7 +42,7 @@
     - ```data\user.id```
     - ```data\DAOS\```
 
-# Limitations
+## Limitations
 - Database is limited to 64 Gigabytes (68719476736 bytes)
 - Organization name 3-64 symbols
 - Server name up to 79 symbols
