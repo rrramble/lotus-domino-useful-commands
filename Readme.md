@@ -6,14 +6,14 @@ The text was taken from own handwritten self-taught notes and translated to Engl
 ## User sessions
 
 ### Block user sessions, light mode
-- New user connections are not permitted until the server is rebooted
-- Existing user connections are allowed
+- New user sessions are not permitted until the server is rebooted
+- Existing user sessions are allowed
 
 ```set config server_restricted=1```
 
 ### Block user sessions, strict mode
-- New user connections are not permitted even after rebooting the server
-- Existing user connections are allowed
+- New user sessions are not permitted even after rebooting the server
+- Existing user sessions are allowed
 
 ```set config server_restricted=2```
 
