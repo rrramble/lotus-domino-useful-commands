@@ -25,8 +25,8 @@
 - Do not restart server
 - move ```cert.id``` from ```data``` folder, backup it
 - set up ```notes.ini```:
--- ```servertask=``` — run task after every reboot
--- ```servertaskat1=``` — run task in 01:00 hour daily
+    - ```servertask=``` — run task after every reboot
+    - ```servertaskat1=``` — run task in 01:00 hour daily
 
 ## Reinstalling hints:
 - save ```notes.ini```
