@@ -47,3 +47,10 @@
 - Organization name 3-64 symbols
 - Server name up to 79 symbols
 - Notes network up to 31 symbols
+
+## Domino console
+- command is limited to 255 symbols
+- commands are case insensitive, but parameters might be
+- warnings:
+    - when one is typing command, it can be mixed with server's messages
+    - pressing ```Pause``` keyboard button can stop some server tasks
