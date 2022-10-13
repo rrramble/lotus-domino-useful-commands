@@ -14,6 +14,9 @@
 
 ```set config server_restricted=2```
 
+### Drop user sessions
+```drop all```
+
 ### Allow user sessions
 ```set config server_restricted=0```
 
