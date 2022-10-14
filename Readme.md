@@ -27,10 +27,16 @@ The text was taken from own handwritten self-taught notes and translated to Engl
 ```dbcache flush```
 
 ## Installation check-list
-- Install distributive
+- For reinstallation:
+    - prepare existing files: ```cert.id```, ```admin.id```, ```server.id```
+    - know ```Lotus server name```, ```Lotus domain name```, ```Fully qualified name```
+- Install distributive, install FP files (upgrades)
 - Do not restart server
-- move ```cert.id``` from ```data``` folder, backup it
-- set up ```notes.ini```:
+- Run 'Lotus Domino Server' and make initial setup
+- Run 'Lotus Domino Server', choose 'Start Domino as a regular application'
+- Allow connections in Firewall warning
+- Move ```cert.id``` from ```data``` folder, backup it
+- Set up ```notes.ini```:
     - ```servertask=``` — run task after every reboot
     - ```servertaskat1=``` — run task in 01:00 hour daily
 
