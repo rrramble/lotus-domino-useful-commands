@@ -41,17 +41,17 @@ The text was taken from own handwritten self-taught notes and translated to Engl
     - ```servertaskat1=``` — run task in 01:00 hour daily
 
 ## Quick reinstallation hints (without uninistall/install distributive):
-- save file ```notes.ini```
+- backup file ```notes.ini```
 - delete files and folders:
-    - ```data\names.nsf```
-    - ```data\desktop8.ndk```
-    - ```data\cache.ndk```
     - ```data\bookmark.nsf```
-    - ```data\mail.box```
-    - ```data\log.nsf```
     - ```data\busytime.nsf```
-    - ```data\IBM_TECHNICAL_SUPPORT\```
+    - ```data\cache.ndk```
+    - ```data\desktop8.ndk```
+    - ```data\log.nsf```
+    - ```data\mail.box```
+    - ```data\names.nsf```
     - ```data\user.id```
+    - ```data\IBM_TECHNICAL_SUPPORT\```
     - ```data\DAOS\```
 
 ## Limitations
