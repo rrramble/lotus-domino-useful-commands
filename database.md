@@ -32,6 +32,6 @@ Required fields:
 - anonimous
 - default
 
-If a user is a member of severl ACL lists, then their rights are combined with the highest priority among ACL (```OR```).
+If a user is a member of severl ACL lists, then their rights are combined with the highest priority among ACL (```OR``` logic).
 
 > Some tasks such as ```move``` or ```create replica``` are not executed immidietly, but according to ```Administrative process```.
