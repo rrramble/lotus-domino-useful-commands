@@ -19,11 +19,19 @@ Required fields:
 - ```reader```: can read documents:
   - if document explicitly set this user as reader
   - if document does not have ```reader``` field
-- ```author```: has all rights as ```reader```, can edit documents wich have this user set as ```author```.
+- ```author```: has all rights as ```reader```, can edit documents wich have this user set as ```author```
   - A Document can have several ```reader``` and ```author``` fields.
   - If a document does not have the ```reader``` field, or it is empty, then the document can be reached any user with ```reader``` or higher premission.
 - ```editor```: as ```author```, plus can edit documents, which are read-only
 - ```designer```: as ```editor```, plus can change design of the Database
 - ```manager```: as ```designer```, plus can change access to the Database
 
-> Some tasks such as ```move``` or ```create replica``` executed not immidietly, but according to ```Administrative process```.
+### ACL applying prority
+- user or server
+- template (\*/company/country)
+- anonimous
+- default
+
+If a user is a member of severl ACL lists, then their rights are combined with the highest priority among ACL (```OR```).
+
+> Some tasks such as ```move``` or ```create replica``` are not executed immidietly, but according to ```Administrative process```.
